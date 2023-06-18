@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TomMath",
+        "repositoryURL": "https://github.com/DavidSouthgate/TomMathSPM.git",
+        "state": {
+          "branch": "main",
+          "revision": "d14f446ea2f0de6cf9d907f408a50133ed53bdd9",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
