@@ -21,11 +21,11 @@ let package = Package(
                 ],
                 path: ".",
                 sources: [
-                    "vendor/src"
+                    "Vendor/src"
                 ],
                 publicHeadersPath: "Headers",
                 cSettings: [
-                    .headerSearchPath("vendor/src/headers"),
+                    .headerSearchPath("Vendor/src/headers"),
                     .define("USE_LTM"),
                     .define("LTM_DESC"),
                     .define("LTC_NO_TEST"),
