@@ -5,8 +5,8 @@
         "package": "TomMath",
         "repositoryURL": "https://github.com/DavidSouthgate/TomMathSPM.git",
         "state": {
-          "branch": "main",
-          "revision": "8b22de405d85b67aebb8b18dbbda2f046624c2ef",
+          "branch": "release/v1.2.1",
+          "revision": "01ae4a55d9e1ab61731f7c51a45e57f6d5fea4d6",
           "version": null
         }
       }

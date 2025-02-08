@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
@@ -7,12 +7,10 @@ let package = Package(
         .macOS(.v10_10), .iOS(.v9), .tvOS(.v9), .watchOS(.v4)
     ],
     products: [
-        .library(
-            name: "TomCrypt",
-            targets: [ "TomCrypt" ])
+        .library(name: "TomCrypt", targets: ["TomCrypt"])
     ],
     dependencies: [
-        .package(url: "https://github.com/DavidSouthgate/TomMathSPM.git", .branchItem("main"))
+        .package(url: "https://github.com/DavidSouthgate/TomMathSPM.git", branch: "release/v1.2.1")
     ],
     targets: [
         .target(name: "TomCrypt",
