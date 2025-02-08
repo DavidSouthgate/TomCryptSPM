@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "TomCrypt", targets: ["TomCrypt"])
     ],
     dependencies: [
-        .package(url: "https://github.com/DavidSouthgate/TomMathSPM.git", branch: "release/v1.2.1")
+        .package(url: "https://github.com/DavidSouthgate/TomMathSPM.git", from: "1.2.1")
     ],
     targets: [
         .target(name: "TomCrypt",
@@ -27,7 +27,6 @@ let package = Package(
                     .define("USE_LTM"),
                     .define("LTM_DESC"),
                     .define("LTC_NO_TEST"),
-                    .unsafeFlags(["-flto=thin"])  // for Dead Code Elimination
                 ]),
         .testTarget(name: "TomCryptTests",
                    dependencies: [
